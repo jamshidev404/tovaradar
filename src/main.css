@@ -1,0 +1,635 @@
+/* "*" belgisi barcha elementlarga murojaatni anglatadi*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/*bloklarning width ni o`zgarishini verstka uchun qulay qilib beradi*/
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+/*quyidagi teglarni blok qilib beradi*/
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+/*elementlarning hossalarini barcha brauzerlar uchun mo`tadillashtirib beradi*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  -ms-text-size-adjusst: 100%;
+  -moz-text-size-adjusst: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/*quyidagi teglarning shriftlar oilasini vorislashi taminlanadi*/
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+/*turli brauzerlarning o`ziga xos hususiyatlarini olib tashlash*/
+input:-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button:-moz-focus-innesr {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+/*sarlavharning odatdagi stillarini nullashtirish*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.button {
+  border: 1px solid #2cb708;
+  border-radius: 5px;
+  background-color: #2cb708;
+  display: inline-block;
+  padding: 10px 18px;
+  width: 123px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+/* ================================================================================= */
+/* ================================================================================= */
+/* ================================================================================= */
+
+.header {
+  margin-bottom: 127px;
+}
+
+@media (max-width: 711px) {
+  .header {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 689px) {
+  .header {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    margin-bottom: 40px;
+  }
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 613px) {
+  .container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 907px) {
+  .container {
+    text-align: center;
+  }
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-top: 13px;
+  vertical-align: middle;
+}
+
+@media (max-width: 690px) {
+  .header__logo {
+    margin-right: 20px;
+  }
+
+  .logo__bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    width: 150px;
+  }
+
+  .logo__bottom {
+    display: none;
+  }
+}
+
+.logo > img {
+  margin-bottom: 11px;
+  width: 100%;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.header__catalog {
+  display: inline-block;
+  padding: 9px 15px 9px 17px;
+}
+
+@media (max-width: 813px) {
+  .header__catalog {
+    display: none;
+  }
+}
+
+.search {
+  width: 420px;
+  border: 1px solid #2cb708;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 825px) {
+  .search {
+    width: 320px;
+  }
+}
+
+@media (max-width: 718px) {
+  .search {
+    width: 220px;
+  }
+}
+
+.in__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search .search-text {
+  width: 100%;
+}
+
+.search .search__word {
+  text-align: center;
+  margin-left: 24px;
+}
+
+.search .lupa {
+  display: inline-block;
+  background-color: #2cb708;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 11px;
+}
+
+@media (max-width: 500px) {
+  .search .lupa {
+    padding: 5px 6px;
+  }
+}
+
+.navbar {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 1160px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.burger {
+}
+.burger__img {
+  color: #333;
+}
+
+.items {
+  position: relative;
+}
+
+.navbar .item {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.navbar .item img {
+  margin-bottom: 12px;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  top: -9px;
+  right: 1px;
+  margin: 2px;
+  width: 18px;
+  height: 18px;
+  padding: 3px 2px 3px 2px;
+  border: 1px solid #2cb708;
+  background-color: #2cb708;
+  border-radius: 50%;
+}
+
+.notifications {
+  position: absolute;
+  top: -9px;
+  right: 9px;
+  margin: 2px;
+  width: 18px;
+  height: 18px;
+  padding: 3px 2px 3px 2px;
+  border: 1px solid #2cb708;
+  background-color: #2cb708;
+  border-radius: 50%;
+}
+
+.notification__number {
+  color: #fff;
+  font-size: 10px;
+}
+
+/*=========================*/
+
+/*============= BANNER ============*/
+
+.banner {
+  position: relative;
+}
+
+.banner .banner__image {
+  width: 100%;
+}
+
+.banner__image {
+  margin-bottom: 10px;
+}
+
+.dottes {
+  width: 40px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.dot {
+  display: inline-block;
+  border: 1px solid #2cb708;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background-color: #2cb708;
+}
+/*============= Cards ============*/
+
+.cards__container > div {
+  display: inline-block;
+}
+
+.cards {
+  margin-bottom: 80px;
+}
+.card {
+  padding: 20px;
+  width: 290px;
+  height: 290px;
+  background-color: #fcfffc;
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 19px;
+}
+
+.card__title {
+  text-align: center;
+}
+
+.cards .card:hover {
+  cursor: pointer;
+}
+
+.cards .mini-card {
+  display: inline-block;
+  width: 290px;
+  height: 145px;
+  background-color: #fcfffc;
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 19px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.mini__card__text {
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 53px;
+}
+
+.cards .mini-card:hover {
+  cursor: pointer;
+}
+
+/*============== Popular Computer style ===============*/
+
+.popular__computer__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 70px;
+}
+
+.computer__products {
+  display: inline-block;
+}
+
+.products {
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 16px;
+  margin-bottom: 49px;
+  width: 219px;
+  left: 0px;
+  top: 30px;
+}
+
+.heart {
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+
+.new {
+  width: 86px;
+  height: 29px;
+  border-radius: 10px;
+  background-color: #eb8528;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: -30px;
+  margin-bottom: 6px;
+}
+
+.computer__price {
+  margin: 10px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.recomends {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 10px 0px 10px 0px;
+  color: #b9b9b9;
+}
+
+.computer__buy {
+  text-align: center;
+}
+
+.show__again__button {
+  display: inline-block;
+  width: 100%;
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 17px 0px;
+  text-align: center;
+  margin-bottom: 81px;
+  cursor: pointer;
+}
+
+/*===================== Reklama =====================*/
+.advertising {
+  margin-bottom: 100px;
+}
+
+.advertising img {
+  margin-bottom: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sponsor {
+  margin-bottom: 79px;
+}
+
+.sponsor__product {
+  margin-bottom: 40px;
+}
+
+/*===== Brand style ======*/
+
+.brand__title {
+  margin-bottom: 40px;
+}
+
+.brands {
+  display: inline-block;
+  margin: 15px 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.all__brands {
+  width: 187px;
+  height: 100px;
+  padding-top: 40px;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
+.all__brands div {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.brand {
+  margin-bottom: 80px;
+}
+
+/*================== Magazin style ================*/
+
+.magazines {
+  margin-bottom: 93px;
+}
+.territory__magazines {
+  margin-bottom: 40px;
+}
+
+.magazin {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 4px;
+  cursor: pointer;
+}
+
+.all__sellers {
+  width: 187px;
+  height: 100px;
+  padding-top: 40px;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  /* margin: 5px; */
+}
+
+/*================== Seen products ======================*/
+.seen {
+  margin-bottom: 80px;
+}
+
+.seen__title {
+  margin-bottom: 40px;
+}
+
+.seen__products {
+  display: inline-block;
+  width: 228px;
+  height: 163px;
+  border-radius: 10px;
+  margin-right: 13px;
+  cursor: pointer;
+  margin-bottom: 82px;
+}
+
+.seen__products:active {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.products__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*============= Footer style ==========*/
+
+.footer {
+  width: 100%;
+  background-color: #eef1f2;
+  /* text-align: center; */
+}
+
+.footer__items {
+  vertical-align: top;
+  display: inline-block;
+  margin: 80px 34px 0px 0px;
+  color: #333232;
+}
+
+.footer__items li:first-child {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333232;
+}
+
+.footer__items li {
+  margin-bottom: 20px;
+}
+
+.footer__items li:hover {
+  cursor: pointer;
+}
+
+.footer__items .footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__items .footer__logo:hover {
+  cursor: pointer;
+}
+
+.footer__items .all__rights {
+  vertical-align: middle;
+  text-align: center;
+  color: #b9b9b9;
+  margin-bottom: 20px;
+}
+
+.footer__items .social__icons {
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer__items .social__icons img {
+  margin-right: 20px;
+}

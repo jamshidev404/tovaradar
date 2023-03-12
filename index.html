@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TOVARADAR</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__container container">
+          <div class="header__logo logo">
+            <img
+              class="logo-image"
+              src="./pictures/image_2022-09-05_22-47-27-removebg-preview 1.png"
+              alt="logo"
+            />
+            <div class="logo__bottom">
+              <img src="./pictures/lokatsiya.png" alt="location" />  
+              <span> Москва, Московская область</span>
+              <img src="./pictures/strelka.png" alt="" />
+            </div>
+          </div>
+          <div class="header__catalog button">
+            <div class="catalog__button">
+              <img class="catalog__img" src="./pictures/3line.png" alt="" />
+              <span class="catalog__text">Каталог</span>
+            </div>
+          </div>
+
+          <div class="search">
+            <div class="in__search">
+              <div class="search__word">
+                <input class="search-text" type="text" placeholder="Я ищу..." />
+              </div>
+              <div class="lupa">
+                <img src="./pictures/lupa.png" alt="lupa" />
+              </div>
+            </div>
+          </div>
+
+          <nav class="navbar">
+            <ul class="items">
+              <li class="item">
+                <img src="./pictures/User.png" alt="" />
+                <div>Войти</div>
+              </li>
+              <li class="item">
+                <img src="./pictures/sumkacha.png" alt="" />
+                <div>Заказы</div>
+                <div class="notification">
+                  <div class="notification__number">5</div>
+                </div>
+              </li>
+              <li class="item">
+                <img src="./pictures/yurak.png" alt="" />
+                <div>Избранные</div>
+                <div class="notifications">
+                  <div class="notification__number">12</div>
+                </div>
+              </li>
+              <li class="item">
+                <img src="./pictures/savatcha.png" alt="" />
+                <div>Корзина</div>
+                <div class="notification">
+                  <div class="notification__number">8</div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <!-- <div class="burger">
+            <img class="burger__img" src="./pictures/3line.png" alt="" />
+          </div> -->
+        </div>
+      </div>
+
+      <!--========== Banner section =========== -->
+      <main class="main">
+        <!--========= Banner section ========== -->
+        <section class="banner">
+          <div class="banner__container container">
+            <img
+              class="banner__image"
+              src="./pictures/image 2.png"
+              alt="banner"
+            />
+            <div class="dottes">
+              <div class="dot"></div>
+              <div class="dot active"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </section>
+        <!--========= Banner section end ========== -->
+
+        <!--========= Card section start ========== -->
+        <section class="cards">
+          <div class="cards__container container">
+            <div class="card">
+              <img
+                class="card__image"
+                src="./pictures/picture (1).png"
+                alt=""
+              />
+              <div class="card__title">Быловые товары</div>
+            </div>
+            <div class="card">
+              <img
+                class="card__image"
+                src="./pictures/picture (2).png"
+                alt=""
+              />
+              <div class="card__title">Книги, хобби, канцелярия</div>
+            </div>
+            <div class="card">
+              <img
+                class="card__image"
+                src="./pictures/picture (3).png"
+                alt=""
+              />
+              <div class="card__title">Продукты питания</div>
+            </div>
+            <div class="card">
+              <img class="card__image" src="./pictures/picture.png" alt="" />
+              <div class="card__title">Электроника</div>
+            </div>
+
+            <!-- Mini Cards -->
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (4).png"
+                alt=""
+              />
+              <div class="mini__card__text">Детские товары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (5).png"
+                alt=""
+              />
+              <div class="mini__card__text">Одежда, обувь и аксессуары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (6).png"
+                alt=""
+              />
+              <div class="mini__card__text">Зоотовары</div>
+            </div>
+            <div class="mini-card">
+              <img
+                class="mini__card__image"
+                src="./pictures/picture (7).png"
+                alt=""
+              />
+              <div class="mini__card__text">Красота и уход</div>
+            </div>
+          </div>
+        </section>
+        <!--========= Card section end ========== -->
+
+        <!--========= Popular section end ========== -->
+        <section class="popular__computer">
+          <div class="popular__computer__container container">
+            <h1 class="popular__computer__title">
+              Популярная компьютерная техника
+            </h1>
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+            <div class="show__again__button">
+              <p>Показать еще</p>
+            </div>
+          </div>
+        </section>
+        <!--========= Popular section end ========== -->
+
+        <!--========= Advertising section end ========== -->
+        <section class="ad">
+          <div class="container">
+            <div class="advertising">
+              <img src="./pictures/reklama.png" alt="advertising" />
+              <div class="dottes">
+                <div class="dot"></div>
+                <div class="dot active"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--========= Advertising section end ========== -->
+
+        <!--========= Xit section ========== -->
+        <section class="popular__computer">
+          <div class="popular__computer__container container">
+            <h1 class="popular__computer__title">Хит продаж</h1>
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+            <div class="show__again__button">
+              <p>Показать еще</p>
+            </div>
+          </div>
+        </section>
+        <!--========= Xit section end ========== -->
+
+        <!--========= Based on views section start ========== -->
+        <section class="popular__computer">
+          <div class="popular__computer__container container">
+            <h1 class="popular__computer__title">На основе просмотров</h1>
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (4).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+            <div class="show__again__button">
+              <p>Показать еще</p>
+            </div>
+          </div>
+        </section>
+        <!--========= Based on views section end ========== -->
+
+        <!--========= Sponsor section start ========== -->
+        <section class="popular__computer sponsor">
+          <div class="popular__computer__container container">
+            <h1 class="popular__computer__title">Спонсорские товары</h1>
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage.png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <div class="new">Новинка</div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (1).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (2).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+            <div class="products">
+              <div class="heart">
+                <img src="./pictures/Vector.png" alt="" />
+              </div>
+              <img
+                class="product__image"
+                src="./pictures/xitimage (3).png"
+                alt=""
+              />
+              <div class="computer__price">от 3000 ₽</div>
+              <div class="product__title">
+                Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver
+              </div>
+              <div class="recomends">26 предложений</div>
+              <div class="button computer__buy">Купить</div>
+            </div>
+
+          </div>
+        </section>
+        <!--========= Sponsor section end ========== -->
+
+        <!--========= Brands section start ========== -->
+        <section class="brand">
+          <div class="container">
+            <h1 class="popular__computer__title brand__title">
+              Представительные бренды
+            </h1>
+            <div class="brands">
+              <img src="./pictures/logo01 (1).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo01 (2).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo01.png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo02 (1).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo02 (2).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo02.png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo03 (1).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo03 (2).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo03.png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo04 (1).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo04.png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo05 (1).png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo05.png" alt="brand" />
+            </div>
+            <div class="brands">
+              <img src="./pictures/logo06 (1).png" alt="brand" />
+            </div>
+            
+            <div class="brands">
+              <div class="all__brands">
+                <div>Все производители</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--========= Brands section end ========== -->
+
+        <!--========= Territory magazines section ========== -->
+        <section class="magazines">
+          <div class="container">
+            <h1 class="popular__computer__title territory__magazines">
+              Территория магазинов
+            </h1>
+            <div class="magazin">
+              <img src="./pictures/magazin1.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin2.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin3.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin4.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin5.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin6.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin7.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin8.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin9.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin10.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin11.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin12.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin13.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin14.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin15.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin16.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <img src="./pictures/magazin17.png" alt="magazin" />
+            </div>
+            <div class="magazin">
+              <div class="all__sellers"><div>Все продавцы</div></div>
+            </div>
+          </div>
+        </section>
+        <!--========= Territory magazines section end ========== -->
+
+        <!--========= Seen products section ========== -->
+        <section class="seen">
+          <div class="container">
+            <h1 class="popular__computer__title seen__title">
+              Вы просматривали
+            </h1>
+            <div class="seen__products">
+              <img src="./pictures/xitimage (1).png" alt="" />
+            </div>
+            <div class="seen__products">
+              <img src="./pictures/xitimage (2).png" alt="" />
+            </div>
+            <div class="seen__products">
+              <img src="./pictures/xitimage (3).png" alt="" />
+            </div>
+            <div class="seen__products">
+              <img src="./pictures/xitimage (4).png" alt="" />
+            </div>
+           
+            <div class="products__text">
+              Корпус выполнен из пластика, а покрытие насадок – из керамики.
+              Имеет простое механическое управление: при помощи переключателей
+              на корпусе регулируются скорость и температурный режим. Устройство
+              удобное в хранении и использовании. Размеры в ширину составляют 56
+              см, в высоту – 264 см, в глубину – 62 см. Вес равен 360 г. Для
+              удобства эксплуатации рукоятка модели прорезинена и удобно
+              располагается в руке. Имеется специальная подвесная петля для
+              расположения прибора на специальном крючке. Щетка имеет диаметр 40
+              мм и 50 мм. Шнур питания длиной 1,8 м оснащен специальным шарниром
+              у крепления для защиты от механических повреждений. Возможность
+              вращения провода предотвращает его от запутывания.
+              <br />
+              <br />
+              Основные функциональные характеристики:
+              <br />
+              <br />
+              наличие 2 степеней нагрева; 2 скорости работы воздушного потока;
+              возможность вращения насадок; встроенный режим "холодный воздух";
+              наличие съемной защитной решетки. Функция ионизации осуществляется
+              благодаря турмалиновому покрытию, которое равномерно распределяет
+              горячий воздух и делает сушку волос эффективной и максимально
+              безопасной.
+
+              <br />
+              <br />
+
+              В нашем маркетплейсе вы можете купить "фен-щетка Rowenta Brush
+              Activ Keratin&Shine CF9522F0 Black/Pink" в Москве. Кэшбэк до 495
+              бонусных рублей. Товар в наличии у 7 продавцов. Цены начинаются от
+              4499 рублей
+            </div>
+          </div>
+        </section>
+        <!--========= Seen products section end ========== -->
+      </main>
+      <!-- ===================== Main end ================== -->
+
+      <!-- ===================== Footerstart ================== -->
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <ul class="footer__items">
+              <li>О компании</li>
+              <li>Контакты</li>
+              <li>Вакансии</li>
+              <li>Реквизиты</li>
+              <li>Партнерская программа</li>
+            </ul>
+            <ul class="footer__items">
+              <li>Покупателю</li>
+              <li>Помощь покупателю</li>
+              <li>Доставка</li>
+              <li>Возврат</li>
+              <li>Оплата</li>
+              <li>Кредит</li>
+              <li>Акции</li>
+              <li>Промокоды</li>
+              <li>СберСпасибо</li>
+            </ul>
+            <ul class="footer__items">
+              <li>Магазинам</li>
+              <li>Помощь магазинам</li>
+              <li>Приглашение к сотрудничеству</li>
+              <li>Вход в личный кабинет</li>
+            </ul>
+            <ul class="footer__items">
+              <li>Правовая информация</li>
+              <li>Условия использования сайтa</li>
+              <li>Политика обработки персональных данных</li>
+              <li>Условия заказа и доставки</li>
+              <li>Правила сервиса «закажи и забери»</li>
+            </ul>
+            <div class="footer__items">
+              <img
+                class="footer__logo"
+                src="./pictures/image_2022-09-05_22-47-27-removebg-preview 1.png"
+                alt="logo"
+              />
+              <div class="all__rights">© 2022 «Texnostore»</div>
+              <div class="social__icons">
+                <img src="./pictures/001-instagram.png" alt="" />
+                <img src="./pictures/002-viber.png" alt="" />
+                <img src="./pictures/003-telegram.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
